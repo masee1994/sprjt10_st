@@ -27,7 +27,7 @@ public class BControllerCj2 {
 //		�۾��� ����
 ////		toss
 		
-		
+//		tom1 comment2
 //		2 tom1 comment
 //		model.addAttribute("request",request);
 //		bServiceInter=new BWriteService();
