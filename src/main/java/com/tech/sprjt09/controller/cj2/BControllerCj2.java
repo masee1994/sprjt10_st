@@ -24,11 +24,11 @@ public class BControllerCj2 {
 	@RequestMapping("/write")
 	public String write(HttpServletRequest request, Model model) {
 		System.out.println("write()");
-//		±Û¾²±â ÁøÇà
+//		ï¿½Û¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 ////		toss
-//		model.addAttribute("request",request);
-//		bServiceInter=new BWriteService();
-//		bServiceInter.execute(model);
+		model.addAttribute("request",request);
+		bServiceInter=new BWriteService();
+		bServiceInter.execute(model);
 
 		return "redirect:list";
 	}
