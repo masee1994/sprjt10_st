@@ -12,10 +12,11 @@ public class BControllerCj1 {
 	
 	BServiceInter bServiceInter;
 	
+//	1 master of master
 	@RequestMapping("/list")
 	public String list(Model model) {
 		System.out.println("list()");
-////		µ¥ÀÌÅÍ °¡Á®¿À±â
+////		ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 //		bServiceInter=new BListService();
 //		bServiceInter.execute(model);
 		
